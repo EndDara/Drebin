@@ -32,13 +32,7 @@ from androguard.core.bytecodes.apk import *
 
 from androguard.core.analysis.analysis import *
 #from androguard.core.analysis.ganalysis import *
-<<<<<<< HEAD
 #from androguard.core.analysis.risk import *
-=======
-from androguard.core.analysis.risk import *
->>>>>>> 855c428dda2dc45c236ef0defedaef3b5a02ed23
-from androguard.decompiler.decompiler import *
-
 
 from androguard.core import androconf
 
