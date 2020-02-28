@@ -23,7 +23,7 @@ import sys, os, cmd, threading, code, re
 from optparse import OptionParser
 
 from androguard.core import *
-from androguard.core.androgen import *
+#from androguard.core.androgen import *
 from androguard.core.androconf import *
 from androguard.core.bytecode import *
 #from androguard.core.bytecodes.jvm import *
@@ -297,7 +297,7 @@ def main(options, arguments):
             for method in _a.get("method", options.method) :
                 if options.pretty != None :
                     _a.ianalyze()
-                    method.pretty_show() 
+                    method.pretty_show()
                 else :
                     method.show()
 
